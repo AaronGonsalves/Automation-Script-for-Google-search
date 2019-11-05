@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EReader Tests" verbose="4">
+	<test name="All Tests">
+		<!-- <groups> -->
+		<!-- <run> -->
+		<!-- <include name="unit.tests" /> -->
+		<!-- </run> -->
+		<!-- </groups> -->
+		<!-- <packages> -->
+		<!-- <package name="com.ereader.toolbox.*" /> -->
+		<!-- </packages> -->
+		<classes>
+			<class name="com.ereader.toolbox.testcases.CalculatorTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.BookmarkTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.GotoPageTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.NavigationMenuBarTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.OpenBookToggleButtonTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.ZoomTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.LayoutTestCase"></class>
+			<class name="com.ereader.toolbox.testcases.AnnotationTestCase"></class>
+<!-- 			<class name="com.ereader.toolbox.testcases.AnnotationLogViewerTestCase"></class> -->
+<!-- 			<class name="com.ereader.toolbox.testcases.PrintTestCase"></class> -->
+		</classes>
+	</test>
+</suite>
